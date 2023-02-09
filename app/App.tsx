@@ -8,7 +8,7 @@ import whiteLabelConfig from './whitelabel/WhiteLabelConfig';
 
 const app = () => (
   <SafeAreaView style={appStyle.screen}>
-    <Text style={appStyle.title}>{whiteLabelConfig.APP_NAME} App</Text>
+    <Text style={appStyle.title}>{whiteLabelConfig.APP_NAME}</Text>
     <View style={appStyle.container}>
       <View style={appStyle.greeting}>
         <Text style={appStyle.greetingText}>
